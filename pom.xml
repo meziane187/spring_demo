@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>23</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -60,6 +60,14 @@
 			<artifactId>sqlite-jdbc</artifactId>
 			<version>3.50.3.0</version>
 		</dependency>
+
+		<!-- Oracle JDBC driver -->
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc11</artifactId>
+			<version>23.5.0.24.07</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
